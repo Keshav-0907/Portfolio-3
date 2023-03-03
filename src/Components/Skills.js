@@ -1,6 +1,5 @@
 import React from 'react'
 import { BsCodeSlash } from 'react-icons/bs'
-import { SiJavascript } from 'react-icons/si'
 import { Icon } from '@iconify/react';
 
 
