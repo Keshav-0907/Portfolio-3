@@ -12,7 +12,7 @@
   align-items: center; 
   background-color: #404040;
   height: 100vh;
-  background-image: url(/Users/keshavmalik/Desktop/Projects/Portfolio/keshav/src/Components/Images/background.jpg);
+  background-image: url(../src/Components/Images/background.jpg);
   background-position: center;
   background-size: contain;
   z-index: -1;
