@@ -5,13 +5,16 @@ import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
 
+
 const Home = () => {
     return (
         <>
             <div className='home-main'>
+
                 <div className='gif'>
-                    <img src={gif} alt='err'></img>
+                    <img src={gif} className='gif-main' alt='err'></img>
                 </div>
+                
                 <div className='info'>
                     <div className='head'>
                         <div className='head-pic'>

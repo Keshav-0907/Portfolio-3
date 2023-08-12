@@ -10,11 +10,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center; 
-  background-color: #404040;
+  background-color: #5cb68c;
   height: 100vh;
   background-image: url(../src/Components/Images/background.jpg);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   z-index: -1;
 }
 
@@ -30,8 +31,23 @@
   overflow-y: scroll;
 }
 
+@media screen and (max-width: 1000px){
+  .info{
+    width: 500px;
+    margin: 10px;
+  height: 800px;
+  }
+}
+
 .gif{
+  width: 270px;
   margin-right: 90px;
+}
+
+@media screen and (max-width: 1200px){
+  .gif{
+    display: none;
+  }
 }
 
 .gif img{
@@ -45,6 +61,13 @@
   display: flex;
   flex-direction: row;
   justify-content: left;
+}
+
+@media screen and (max-width:1000px) {
+  .home{
+    flex-direction: column;
+    background-color: #553c9a;
+  }
 }
 
 .head-pic img{
@@ -62,6 +85,21 @@
   color: rgb(219, 219, 141);
   font-size: 60px;
 }
+
+@media screen and (max-width:1000px) {
+  .head-name h1{
+  color: rgb(219, 219, 141);
+  font-size: 40px;
+}
+}
+@media screen and (max-width:550px) {
+  .head-name h1{
+  color: rgb(219, 219, 141);
+  font-size: 20px;
+}
+}
+
+
 
 /* About */
 
@@ -93,6 +131,12 @@
   justify-content: space-around;
 }
 
+@media screen and (max-width:1000px) {
+  .prog-lang{
+    flex-direction: column;
+  }
+}
+
 .skills-block h3{
   font-size: 17px;
   font-weight: 400;
@@ -111,10 +155,56 @@
   flex-direction: row;
 }
 
-.center{
+.Project-Cont{
+  background-color: #404040;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.Project-Card{
+  background-color: #555555;
   display: flex;
   flex-direction: row;
+  margin: 20px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 800px){
+  .Project-Card{
+    flex-direction: column;
+  }
+}
+
+.Project-Card:hover{
+  background-color: #6d6d6d;
+  transition: 0.5s;
+}
+
+.Project-Card-Img img{
+  width: 300px;
+  border-radius: 10px;
+
+}
+
+.Project-Card-Img{
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+}
+
+.Project-Card-Content{
+  padding: 10px 20px;
+}
+
+.github-btn{
+  background-color: #242323;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 5px;
+}
+
+.github-btn:hover{
+  cursor: pointer;
 }

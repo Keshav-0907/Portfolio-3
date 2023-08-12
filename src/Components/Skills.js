@@ -6,7 +6,7 @@ import { Icon } from '@iconify/react';
 const Skills = () => {
     return (
         <div className='skills-main'>
-            <h2> <BsCodeSlash /> What I Can do  </h2>
+            <h2> <BsCodeSlash /> My Skills  </h2>
             <div className='skills-cont'>
 
                 <div className='skills-block'>
@@ -19,7 +19,7 @@ const Skills = () => {
                             <h4> <Icon width='30px' icon="logos:c-plusplus" /> <span className='word'> C/C++ </span></h4>
                         </div>
                         <div className='lang'>
-                            <h4> <Icon width='30px' icon="logos:python" /> <span className='word'> Python </span> </h4>
+                            <h4> <Icon width='30px' icon="logos:java" /> <span className='word'> Java </span> </h4>
                         </div>
                     </div>
                 </div>
@@ -45,6 +45,9 @@ const Skills = () => {
                         <div className='lang'>
                             <h4> <Icon width='30px' icon="simple-icons:nodedotjs" color="#759f69" /> <span className='word'> Node.js </span> </h4>
                         </div>
+                        <div className='lang'>
+                            <h4> <Icon width='30px' icon="skill-icons:expressjs-light" color="#759f69" /> <span className='word'> Express.js </span> </h4>
+                        </div>
                     </div>
                 </div>
 
@@ -61,16 +64,16 @@ const Skills = () => {
                 </div>
 
                 <div className='skills-block'>
-                    <h3> Technology  </h3>
+                    <h3> Other Tools  </h3>
                     <div className='prog-lang'>
                         <div className='lang'>
                             <h4> <Icon width='30px' icon="fe:github" />   <span className='word'> Github </span> </h4>
                         </div>
                         <div className='lang'>
-                            <h4> <Icon width='30px' icon="simple-icons:qgis" color="#6b933f" />  <span className='word'> Q-Gis </span> </h4>
+                            <h4> <Icon width='30px' icon="mdi:git" color="#d8593e" />   <span className='word'> Git </span> </h4>
                         </div>
                         <div className='lang'>
-                            <h4> <Icon width='30px' icon="mdi:git" color="#d8593e" />   <span className='word'> Git </span> </h4>
+                            <h4> <Icon width='30px' icon="skill-icons:docker" />   <span className='word'> Docker </span> </h4>
                         </div>
                     </div>
                 </div>
